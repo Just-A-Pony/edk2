@@ -23,7 +23,6 @@ UefiRuntimeServicesTableLib
 UefiDriverEntryPoint
 DebugLib
 PrintLib
-PrepiLib
 
 [Protocols]
 gEfiSimpleTextOutProtocolGuid
