@@ -108,7 +108,7 @@
 #define				MAX_PACKAGE_COUNT			4				// maximum number of supported packages/sockets
 
 // driver settings
-const UINTN			CPU_SET_MAX_TURBO_RATIO		=	38;				// 0 for auto max: Core turbo ratio, not to exceed fused limit, no less than MFM (8)
+const UINTN			CPU_SET_MAX_TURBO_RATIO		=	36;				// 0 for auto max: Core turbo ratio, not to exceed fused limit, no less than MFM (8)
 const UINTN			CPU_SET_MAX_UNCORE_RATIO	=	0;				// 0 for auto max: Uncore ratio, not to exceed fused limit, no less than 12
 const BOOLEAN			CPU_SET_FIXED_VCCIN		=	FALSE;				// set fixed VCCIN (reboot required)
 const BOOLEAN			CPU_SET_OC_LOCK			=	FALSE;				// set Overlocking Lock at completion of programming
